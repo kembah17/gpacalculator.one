@@ -91,7 +91,7 @@ export default function Header() {
                   textDecoration: 'none',
                   color: 'var(--color-text-secondary)',
                   fontSize: '0.875rem',
-                  fontWeight: 500,
+                  fontWeight: 600,
                   transition: 'color 0.2s',
                 }}
                 onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--color-primary)')}

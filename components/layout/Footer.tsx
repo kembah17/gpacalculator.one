@@ -35,26 +35,18 @@ export default function Footer() {
               Tools
             </h3>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <li>
-                <Link href="/gpa-calculator/" style={{ color: 'var(--color-footer-muted)', textDecoration: 'none', fontSize: '0.875rem' }}>
-                  GPA Calculator
-                </Link>
-              </li>
-              <li>
-                <Link href="/cgpa-calculator/" style={{ color: 'var(--color-footer-muted)', textDecoration: 'none', fontSize: '0.875rem' }}>
-                  CGPA Calculator
-                </Link>
-              </li>
-              <li>
-                <Link href="/grade-calculator/" style={{ color: 'var(--color-footer-muted)', textDecoration: 'none', fontSize: '0.875rem' }}>
-                  Grade Calculator
-                </Link>
-              </li>
-              <li>
-                <Link href="/weighted-gpa-calculator/" style={{ color: 'var(--color-footer-muted)', textDecoration: 'none', fontSize: '0.875rem' }}>
-                  Weighted GPA Calculator
-                </Link>
-              </li>
+              {[
+                { href: '/gpa-calculator/', icon: '📊', label: 'GPA Calculator' },
+                { href: '/cgpa-calculator/', icon: '📈', label: 'CGPA Calculator' },
+                { href: '/grade-calculator/', icon: '📝', label: 'Grade Calculator' },
+                { href: '/weighted-gpa-calculator/', icon: '⚖️', label: 'Weighted GPA Calculator' },
+              ].map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} style={{ color: 'var(--color-footer-muted)', textDecoration: 'none', fontSize: '0.875rem' }}>
+                    {link.icon} {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
