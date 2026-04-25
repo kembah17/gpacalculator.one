@@ -24,22 +24,22 @@ export const metadata: Metadata = {
 
 const tools = [
   {
-    name: '\ud83d\udcca GPA Calculator',
+    name: '📊 GPA Calculator',
     description: 'Calculate your semester and cumulative GPA on the US 4.0 scale. Add multiple semesters and courses with real-time results.',
     href: '/gpa-calculator/',
   },
   {
-    name: '\ud83d\udcc8 CGPA Calculator',
+    name: '📈 CGPA Calculator',
     description: 'Calculate your cumulative GPA across all semesters. Supports 4.0, 5.0, 7.0, and 10.0 grading scales with visual trend charts.',
     href: '/cgpa-calculator/',
   },
   {
-    name: '\ud83d\udcdd Grade Calculator',
+    name: '📝 Grade Calculator',
     description: 'Calculate your course grade with weighted categories. Includes a "What Do I Need" calculator to plan your target grade.',
     href: '/grade-calculator/',
   },
   {
-    name: '\u2696\ufe0f Weighted GPA Calculator',
+    name: '⚖️ Weighted GPA Calculator',
     description: 'Calculate weighted vs unweighted GPA for AP, Honors, IB, and Dual Enrollment courses with customizable boost values.',
     href: '/weighted-gpa-calculator/',
   },
@@ -100,7 +100,7 @@ export default function HomePage() {
               fontSize: '1rem',
             }}
           >
-            Start Calculating \u2192
+            Start Calculating →
           </Link>
         </section>
 
