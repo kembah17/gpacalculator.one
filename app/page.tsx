@@ -78,7 +78,7 @@ export default function HomePage() {
           <p
             style={{
               fontSize: '1.125rem',
-              color: 'var(--color-text-secondary)',
+              color: 'var(--color-text)',
               maxWidth: '640px',
               margin: '0 auto 2rem',
               lineHeight: 1.7,
@@ -128,7 +128,7 @@ export default function HomePage() {
             Understanding GPA: Your Complete Guide
           </h2>
 
-          <div style={{ color: 'var(--color-text-secondary)', lineHeight: 1.8, fontSize: '0.9375rem' }}>
+          <div style={{ color: 'var(--color-text)', lineHeight: 1.8, fontSize: '0.9375rem' }}>
             <p style={{ marginBottom: '1rem' }}>
               Your Grade Point Average (GPA) is one of the most important academic metrics used by colleges, universities, graduate schools, and employers to evaluate your academic performance. Whether you are a high school student preparing for college applications, a college student tracking your progress toward graduation, or a graduate student maintaining your academic standing, understanding how to calculate and improve your GPA is essential for academic success.
             </p>

@@ -65,7 +65,7 @@ export default function Header() {
           }}
         >
           <span style={{ fontSize: '1.5rem' }}>📊</span>
-          <span>GPA Calculator</span>
+          <span>gpacalculator</span>
           <span style={{ color: 'var(--color-primary)', fontWeight: 800 }}>.one</span>
         </Link>
 

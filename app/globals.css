@@ -170,3 +170,16 @@ body {
 input, textarea, select { background-color: var(--color-bg-input); color: var(--color-text-primary); border-color: var(--color-border); }
 input:focus, textarea:focus, select:focus { outline: none; border-color: var(--color-brand); box-shadow: 0 0 0 3px rgba(217,119,6,0.15); }
 .dark input:focus, .dark textarea:focus, .dark select:focus { box-shadow: 0 0 0 3px rgba(249,162,62,0.2); }
+
+
+/* Tool card hover animations */
+@keyframes iconPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+.tool-card:hover .tool-icon {
+  animation: iconPulse 0.6s ease-in-out;
+}
+.tool-card:hover .tool-heading {
+  color: var(--color-brand) !important;
+}
