@@ -14,11 +14,13 @@ export const metadata: Metadata = {
     url: 'https://gpacalculator.one/',
     siteName: 'gpacalculator.one',
     type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'GPA Calculator Suite - Free Online GPA Tools' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'GPA Calculator Suite - Free Online GPA Tools',
     description: 'Free GPA calculator suite with tools for GPA, CGPA, course grades, and weighted GPA.',
+    images: ['/og-image.png'],
   },
 };
 
