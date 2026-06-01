@@ -9,6 +9,8 @@ const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 
 export const metadata: Metadata = {
   ...(gscVerification && { verification: { google: gscVerification } }),
+  metadataBase: new URL('https://gpacalculator.one'),
+  robots: { index: true, follow: true },
   title: 'GPA Calculator Suite - Free Online GPA Tools | gpacalculator.one',
   description: 'Free online GPA calculator tools. Calculate your GPA, CGPA, weighted GPA, and course grades instantly. Supports 4.0, 5.0, and custom grading scales.',
   keywords: 'GPA calculator, CGPA calculator, grade calculator, weighted GPA, college GPA, university GPA, grade point average',
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
     siteName: 'gpacalculator.one',
     type: 'website',
     locale: 'en_US',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'GPA Calculator' }],
   },
   twitter: {
     card: 'summary_large_image',
