@@ -8,11 +8,11 @@ import FaqSchema from '@/components/seo/FaqSchema';
 export const metadata: Metadata = {
   title: 'GPA Calculator (US 4.0 Scale) - Calculate Your GPA | gpacalculator.one',
   description: 'Free GPA calculator using the US 4.0 grading scale. Add multiple semesters and courses, calculate semester and cumulative GPA instantly.',
-  alternates: { canonical: 'https://gpacalculator.one/gpa-calculator/' },
+  alternates: { canonical: 'https://www.gpacalculator.one/gpa-calculator/' },
   openGraph: {
     title: 'GPA Calculator (US 4.0 Scale) - Calculate Your GPA',
     description: 'Free GPA calculator using the US 4.0 grading scale. Add multiple semesters and courses, calculate semester and cumulative GPA instantly.',
-    url: 'https://gpacalculator.one/gpa-calculator/',
+    url: 'https://www.gpacalculator.one/gpa-calculator/',
   },
 };
 

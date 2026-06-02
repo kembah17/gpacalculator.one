@@ -8,11 +8,11 @@ import FaqSchema from '@/components/seo/FaqSchema';
 export const metadata: Metadata = {
   title: 'Grade Calculator - Calculate Your Course Grade | gpacalculator.one',
   description: 'Free grade calculator with weighted categories. Calculate your current course grade and find out what you need on your final exam to reach your target grade.',
-  alternates: { canonical: 'https://gpacalculator.one/grade-calculator/' },
+  alternates: { canonical: 'https://www.gpacalculator.one/grade-calculator/' },
   openGraph: {
     title: 'Grade Calculator - Calculate Your Course Grade',
     description: 'Free grade calculator with weighted categories. Calculate your current course grade and find out what you need on your final exam.',
-    url: 'https://gpacalculator.one/grade-calculator/',
+    url: 'https://www.gpacalculator.one/grade-calculator/',
   },
 };
 

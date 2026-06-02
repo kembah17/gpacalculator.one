@@ -9,7 +9,7 @@ const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 
 export const metadata: Metadata = {
   ...(gscVerification && { verification: { google: gscVerification } }),
-  metadataBase: new URL('https://gpacalculator.one'),
+  metadataBase: new URL('https://www.gpacalculator.one'),
   robots: { index: true, follow: true },
   title: 'GPA Calculator Suite - Free Online GPA Tools | gpacalculator.one',
   description: 'Free online GPA calculator tools. Calculate your GPA, CGPA, weighted GPA, and course grades instantly. Supports 4.0, 5.0, and custom grading scales.',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'GPA Calculator Suite - Free Online GPA Tools',
     description: 'Free online GPA calculator tools. Calculate your GPA, CGPA, weighted GPA, and course grades instantly.',
-    url: 'https://gpacalculator.one',
+    url: 'https://www.gpacalculator.one',
     siteName: 'gpacalculator.one',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description: 'Free online GPA calculator tools. Calculate your GPA, CGPA, weighted GPA, and course grades instantly.',
   },
   alternates: {
-    canonical: 'https://gpacalculator.one',
+    canonical: 'https://www.gpacalculator.one',
   },
 };
 

@@ -8,11 +8,11 @@ import FaqSchema from '@/components/seo/FaqSchema';
 export const metadata: Metadata = {
   title: 'Weighted GPA Calculator - AP, Honors & IB | gpacalculator.one',
   description: 'Free weighted GPA calculator for AP, Honors, IB, and Dual Enrollment courses. Compare weighted vs unweighted GPA with customizable boost values.',
-  alternates: { canonical: 'https://gpacalculator.one/weighted-gpa-calculator/' },
+  alternates: { canonical: 'https://www.gpacalculator.one/weighted-gpa-calculator/' },
   openGraph: {
     title: 'Weighted GPA Calculator - AP, Honors & IB',
     description: 'Free weighted GPA calculator for AP, Honors, IB, and Dual Enrollment courses. Compare weighted vs unweighted GPA side by side.',
-    url: 'https://gpacalculator.one/weighted-gpa-calculator/',
+    url: 'https://www.gpacalculator.one/weighted-gpa-calculator/',
   },
 };
 

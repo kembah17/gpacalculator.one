@@ -7,11 +7,11 @@ import WebSiteSchema from '@/components/seo/WebSiteSchema';
 export const metadata: Metadata = {
   title: 'GPA Calculator Suite - Free Online GPA Tools | gpacalculator.one',
   description: 'Free GPA calculator suite with tools for GPA, CGPA, course grades, and weighted GPA. Accurate, private, and works entirely in your browser.',
-  alternates: { canonical: 'https://gpacalculator.one/' },
+  alternates: { canonical: 'https://www.gpacalculator.one/' },
   openGraph: {
     title: 'GPA Calculator Suite - Free Online GPA Tools',
     description: 'Free GPA calculator suite with tools for GPA, CGPA, course grades, and weighted GPA.',
-    url: 'https://gpacalculator.one/',
+    url: 'https://www.gpacalculator.one/',
     siteName: 'gpacalculator.one',
     type: 'website',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'GPA Calculator Suite - Free Online GPA Tools' }],
