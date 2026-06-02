@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.gpacalculator.one
+
+# Sitemaps
+Sitemap: https://www.gpacalculator.one/sitemap.xml
