@@ -166,7 +166,7 @@ export default function GpaCalculator() {
   const btnPrimary: React.CSSProperties = {
     padding: '0.5rem 1rem',
     backgroundColor: 'var(--color-primary)',
-    color: 'var(--color-primary-text)',
+    color: '#FFFFFF',
     border: 'none',
     borderRadius: '0.5rem',
     cursor: 'pointer',

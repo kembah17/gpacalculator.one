@@ -101,7 +101,7 @@ export default function CgpaCalculator() {
   const btnPrimary: React.CSSProperties = {
     padding: '0.5rem 1rem',
     backgroundColor: 'var(--color-primary)',
-    color: 'var(--color-primary-text)',
+    color: '#FFFFFF',
     border: 'none',
     borderRadius: '0.5rem',
     cursor: 'pointer',
@@ -346,7 +346,7 @@ export default function CgpaCalculator() {
                       width: '100%',
                       maxWidth: '60px',
                       height: `${Math.max(height, 4)}px`,
-                      backgroundColor: 'var(--color-primary)',
+                      backgroundColor: 'var(--color-primary)', color: '#FFFFFF',
                       borderRadius: '0.25rem 0.25rem 0 0',
                       transition: 'height 0.3s',
                     }}

@@ -95,7 +95,7 @@ export default function HomePage() {
               display: 'inline-block',
               padding: '0.875rem 2rem',
               backgroundColor: 'var(--color-primary)',
-              color: 'var(--color-primary-text)',
+              color: '#FFFFFF',
               borderRadius: '0.5rem',
               textDecoration: 'none',
               fontWeight: 700,

@@ -38,7 +38,7 @@ export default function CopyButton({ text }: { text: string }) {
         cursor: 'pointer',
         transition: 'all 0.2s',
         backgroundColor: copied ? 'var(--color-success)' : 'var(--color-primary)',
-        color: copied ? '#fff' : 'var(--color-primary-text)',
+        color: copied ? '#fff' : '#FFFFFF',
       }}
     >
       {copied ? '✓ Copied!' : '📋 Copy'}

@@ -204,7 +204,7 @@ export default function GradeCalculator() {
   const btnPrimary: React.CSSProperties = {
     padding: '0.5rem 1rem',
     backgroundColor: 'var(--color-primary)',
-    color: 'var(--color-primary-text)',
+    color: '#FFFFFF',
     border: 'none',
     borderRadius: '0.5rem',
     cursor: 'pointer',
@@ -260,7 +260,7 @@ export default function GradeCalculator() {
             fontWeight: 500,
             fontSize: '0.875rem',
             backgroundColor: !usePoints ? 'var(--color-primary)' : 'transparent',
-            color: !usePoints ? 'var(--color-primary-text)' : 'var(--color-text)',
+            color: !usePoints ? '#FFFFFF' : 'var(--color-text)',
           }}
         >
           Percentage
@@ -275,7 +275,7 @@ export default function GradeCalculator() {
             fontWeight: 500,
             fontSize: '0.875rem',
             backgroundColor: usePoints ? 'var(--color-primary)' : 'transparent',
-            color: usePoints ? 'var(--color-primary-text)' : 'var(--color-text)',
+            color: usePoints ? '#FFFFFF' : 'var(--color-text)',
           }}
         >
           Points
