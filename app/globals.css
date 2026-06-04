@@ -4,10 +4,10 @@
 
 /* Tailwind utility class mappings - uses actual values for build-time resolution */
 @theme {
-  --color-primary: #D97706;
+  --color-primary: #B45309;
   --color-primary-light: #F9A23E;
-  --color-primary-dark: #B16104;
-  --color-primary-hover: #B16104;
+  --color-primary-dark: #92400E;
+  --color-primary-hover: #92400E;
   --color-primary-text: #0F1419;
   --color-secondary: #FBC17F;
   --color-accent: #D97706;
@@ -63,8 +63,8 @@
   --color-text-inverse: #F1F5F9;
   --color-text-heading: #0F1419;
   --color-text-link: #D97706;
-  --color-brand: #D97706;
-  --color-brand-dark: #B16104;
+  --color-brand: #B45309;
+  --color-brand-dark: #92400E;
   --color-brand-darker: #8D4D03;
   --color-brand-light: #F9A23E;
   --color-brand-lighter: #FBC17F;
@@ -88,7 +88,7 @@
   --color-info-bg: #EFF6FF;
   --color-ad-bg: rgba(217,119,6,0.04);
   --color-ad-border: rgba(217,119,6,0.12);
-  --color-ad-text: #6B7280;
+  --color-ad-text: #64748B;
   --color-toggle-track: #CBD5E1;
   --color-toggle-thumb: #FFFFFF;
   --color-toggle-icon: #64748B;
@@ -134,10 +134,10 @@
   --color-text-inverse: #111827;
   --color-text-heading: #F8FAFC;
   --color-text-link: #F9A23E;
-  --color-brand: #F9A23E;
-  --color-primary: #F9A23E;
-  --color-brand-dark: #D97706;
-  --color-brand-darker: #B16104;
+  --color-brand: #B45309;
+  --color-primary: #B45309;
+    --color-brand-dark: #92400E;
+    --color-brand-darker: #78350F;
   --color-brand-light: #FBC17F;
   --color-brand-lighter: #FCD1A0;
   --color-brand-lightest: #361D01;
@@ -160,7 +160,7 @@
   --color-info-bg: #1E3A5F;
   --color-ad-bg: rgba(249,162,62,0.06);
   --color-ad-border: rgba(249,162,62,0.15);
-  --color-ad-text: #94A3B8;
+  --color-ad-text: #CBD5E1;
   --color-toggle-track: #334155;
   --color-toggle-thumb: #F1F5F9;
   --color-toggle-icon: #94A3B8;
