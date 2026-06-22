@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy | gpacalculator.one',
   description: 'Privacy policy for gpacalculator.one. We do not collect any personal data. All calculations happen in your browser.',
-  alternates: { canonical: 'https://www.gpacalculator.one/privacy/' },
+  alternates: { canonical: 'https://gpacalculator.one/privacy/' },
 };
 
 export default function PrivacyPage() {

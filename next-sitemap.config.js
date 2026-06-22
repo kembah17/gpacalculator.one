@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.gpacalculator.one',
+  siteUrl: 'https://gpacalculator.one',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',

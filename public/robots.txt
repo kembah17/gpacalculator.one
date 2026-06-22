@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.gpacalculator.one
+Host: https://gpacalculator.one
 
 # Sitemaps
-Sitemap: https://www.gpacalculator.one/sitemap.xml
+Sitemap: https://gpacalculator.one/sitemap.xml

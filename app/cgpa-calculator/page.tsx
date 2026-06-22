@@ -8,11 +8,11 @@ import FaqSchema from '@/components/seo/FaqSchema';
 export const metadata: Metadata = {
   title: 'CGPA Calculator - Calculate Cumulative GPA | gpacalculator.one',
   description: 'Free CGPA calculator supporting 4.0, 5.0, 7.0, and 10.0 grading scales. Track your cumulative GPA across all semesters with visual trend charts.',
-  alternates: { canonical: 'https://www.gpacalculator.one/cgpa-calculator/' },
+  alternates: { canonical: 'https://gpacalculator.one/cgpa-calculator/' },
   openGraph: {
     title: 'CGPA Calculator - Calculate Cumulative GPA',
     description: 'Free CGPA calculator supporting 4.0, 5.0, 7.0, and 10.0 grading scales. Track your cumulative GPA across all semesters with visual trend charts.',
-    url: 'https://www.gpacalculator.one/cgpa-calculator/',
+    url: 'https://gpacalculator.one/cgpa-calculator/',
   },
 };
 

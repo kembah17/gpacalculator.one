@@ -3,11 +3,11 @@ export default function WebSiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'GPA Calculator Suite',
-    url: 'https://www.gpacalculator.one',
+    url: 'https://gpacalculator.one',
     description: 'Free online GPA calculator tools. Calculate your GPA, CGPA, weighted GPA, and course grades instantly.',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://www.gpacalculator.one/?q={search_term_string}',
+      target: 'https://gpacalculator.one/?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };
